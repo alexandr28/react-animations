@@ -1,0 +1,23 @@
+
+$font-family: 'Roboto', sans-serif;
+
+*,
+*::before,
+*::after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4,h5,h6{
+    font-family: $font-family;
+  }
+  p, small b{
+    font-family: $font-family;
+  }
+  ul, li, a {
+    font-family: $font-family;
+  }
+  button{
+    font-family: $font-family;
+}
